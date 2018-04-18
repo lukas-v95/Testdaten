@@ -97,7 +97,12 @@ INSERT INTO ContractorType (contractorTypeId, description) VALUES
 
 
 INSERT INTO TravelGroup (travelGroupId, name) VALUES
-	(default,'Group 1');
+	(default,'Group 1'),
+	(default,'Group 2'),
+	(default,'Group 3'),
+	(default,'Group 4'),
+	(default,'Group 5'),
+	(default,'Group 6');
 
 
 INSERT INTO MerchandiseGroup (merchandiseGroupId, description, taxPercentageRate) VALUES
@@ -430,14 +435,55 @@ INSERT INTO Contractor (contractorId, name, uid, iban, bic, contactPersonId, con
 
 INSERT INTO Occupancy (occupancyNumber, startDate, endDate, travelGroupId, personId, roomNumber, positionId) VALUES
 	(default,'2018-03-01','2018-04-18',1,1,201,null),
-	(default,'2018-04-18','2018-05-25',1,2,202,null),
-	(default,'2018-04-15','2018-04-18',1,3,203,null);
+	(default,'2018-03-01','2018-04-18',1,2,201,null),
+	(default,'2018-03-01','2018-04-18',1,3,201,null),
+	
+	(default,'2018-04-18','2018-05-25',2,4,202,null),
+	(default,'2018-04-18','2018-05-25',2,5,202,null),
+	(default,'2018-04-18','2018-05-25',2,6,202,null),
+	
+	(default,'2018-04-20','2018-04-25',3,7,301,null),
+	(default,'2018-04-20','2018-04-25',3,8,301,null),
+	
+	(default,'2018-04-15','2018-04-18',4,9,116,null),		
+	(default,'2018-04-15','2018-04-18',4,10,116,null),		
+	(default,'2018-04-15','2018-04-18',4,11,116,null),		
+	(default,'2018-04-15','2018-04-18',4,12,116,null),		
+	(default,'2018-04-15','2018-04-18',4,13,116,null),
+	
+	(default,'2018-05-01','2018-05-07',5,14,102,null),
+	(default,'2018-05-01','2018-05-07',5,15,102,null),
+	
+	
+	(default,'2018-05-10','2018-05-13',6,16,109,null),	
+	(default,'2018-05-10','2018-05-13',6,17,109,null),
+	(default,'2018-05-10','2018-05-13',6,18,109,null);
 
 
 INSERT INTO PersonGroup (travelGroupId, personId) VALUES
 	(1,1),
 	(1,2),
-	(1,3);
+	(1,3),
+	
+	(2,4),
+	(2,5),
+	(2,6),
+	
+	(3,7),
+	(3,8),
+	
+	(4,9),
+	(4,10),
+	(4,11),
+	(4,12),
+	(4,13),
+	
+	(5,14),
+	(5,15),
+	
+	(3,16),
+	(3,17),
+	(6,18);
 
 
 INSERT INTO ReservationGuest (reservationNumber, personId) VALUES
