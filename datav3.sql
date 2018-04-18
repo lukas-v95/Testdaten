@@ -315,9 +315,24 @@ INSERT INTO Room (roomNumber, maxPerson, roomStatusCode, roomCategoryId) VALUES
 INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, dayPrice, costPrice, roomCategoryId, seasonId) VALUES
 	(default,85, 70, 60, 50, 1, 1),
 	(default,111, 100, 60, 50, 1, 2),
+	(default,85, 70, 60, 50, 1, 3),
+	(default,111, 100, 60, 50, 1, 4),
 	(default,95, 80, 60, 50, 2, 1),
+	(default,95, 80, 60, 50, 2, 3),
+	(default,130, 110, 60, 50, 2, 4),
 	(default,130, 110, 60, 50, 2, 2),
 	(default,95, 80, 60, 50, 3, 1),
+	(default,130, 110, 60, 50, 3, 2),
+	(default,95, 80, 60, 50, 3, 3),
+	(default,130, 110, 60, 50, 3, 4),
+	(default,95, 80, 60, 50, 4, 1),
+	(default,130, 110, 60, 50, 4, 2),
+	(default,95, 80, 60, 50, 4, 3),
+	(default,130, 110, 60, 50, 4, 4),
+	(default,95, 80, 60, 50, 5, 1),
+	(default,95, 80, 60, 50, 5, 3),
+	(default,130, 110, 60, 50, 5, 2),
+	(default,130, 110, 60, 50, 5, 4),
 	(default,130, 110, 60, 50, 3, 2);
 
 
