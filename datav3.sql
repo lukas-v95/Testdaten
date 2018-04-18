@@ -252,7 +252,7 @@ INSERT INTO Contact (contactId, phone, email, fax, creditCardNumber, addressId) 
 INSERT INTO HotelServiceDescription (hotelServiceDescriptionId, description, title, priceSuggestion, isPackage, merchandiseGroupId) VALUES
 	(default,'garage', 'garage', 5.00, false, 4),
 	(default,'telefon', 'telefon', 0.30, false, 4),
-	(default,'cafe', 'cafe', 3.50, true, 2),
+	(default,'cafe', 'cafe', 3.50, false, 2),
 	(default,'happy weekend', 'happy weekend', 3.50, true, 4),
 	(default,'full board', 'full board', 30.00, false, 4),
 	(default,'half board', 'half board', 20.00, false, 4),
@@ -337,7 +337,9 @@ INSERT INTO ContactNote (contactNoteId, text, contactId) VALUES
 INSERT INTO PackageDescription (packageId, serviceId) VALUES
 	(4,1),
 	(4,2),
-	(4,5);
+	(4,5),
+	(11,5),
+	(12,5);
 
 
 INSERT INTO Person (personId, degree, fname, lname, dateOfBirth, sex, isVip, inArchive) VALUES
