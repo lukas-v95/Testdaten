@@ -11,18 +11,18 @@ INSERT INTO Address (addressId, country, province, zipCode, city, street, street
 	(default, 'China', 'Lizi', null, 'Liangwa', 'Dawn', '72', '1265'),
 	(default, 'Nicaragua', 'San Juan de Limay', null, 'Grujugan', 'Twin Pines', '666', '773'),
 	(default, 'Russia', 'Severo-Zadonsk', '301792', 'Cartago', 'Steensland', '50873', '5'),
-	(default, 'China', 'Xiangzikou', null, 'Radā‘', 'American Ash', '5780', '52070'),
-	(default, 'Kenya', 'Nairobi', null, 'Imġarr', 'Thackeray', '69', '99481'),
-	(default, 'Yemen', 'Qaryat ad Da‘īs', null, 'Bang Kho Laem', 'Loftsgordon', '375', '712'),
+	(default, 'China', 'Xiangzikou', null, 'Rada', 'American Ash', '5780', '52070'),
+	(default, 'Kenya', 'Nairobi', null, 'Imgarr', 'Thackeray', '69', '99481'),
+	(default, 'Yemen', 'Qaryat ad Dais', null, 'Bang Kho Laem', 'Loftsgordon', '375', '712'),
 	(default, 'Madagascar', 'Betioky', null, 'Kunów', 'Mesta', '00316', '6990'),
 	(default, 'Czech Republic', 'Hudlice', '267 03', 'Moret-sur-Loing', 'Basil', '3315', '83'),
 	(default, 'China', 'Xiapu', null, 'Jinbo', 'Warbler', '39', '60'),
 	(default, 'Bosnia and Herzegovina', 'Vareš', null, 'Stonewall', 'Swallow', '19824', '63'),
-	(default, 'Macedonia', 'Dobrošte', '1225', 'Tūkrah', 'Fordem', '1470', '46059'),
+	(default, 'Macedonia', 'Dobroste', '1225', 'Tukrah', 'Fordem', '1470', '46059'),
 	(default, 'Indonesia', 'Karang Kulon', null, 'Manonjaya', 'Park Meadow', '8', '901'),
 	(default, 'France', 'Nice', '06293', 'Boden', 'Warrior', '270', '39'),
 	(default, 'Poland', 'BSczana Dolna', '34-730', 'Licupis', 'Oakridge', '2', '65'),
-	(default, 'Brazil', 'Santaluz', '48880', 'Głuchów', 'Twin Pines', '4', '6'),
+	(default, 'Brazil', 'Santaluz', '48880', 'Gluchów', 'Twin Pines', '4', '6'),
 	(default, 'Thailand', 'Sena', '13110', 'Bent Jbaïl', 'Steensland', '00', '41402'),
 	(default, 'Sweden', 'Smedjebacken', '77782', 'La Punta', 'Evergreen', '78', '58995'),
 	(default, 'Indonesia', 'Panggungasri', null, 'Nova Petrópolis', 'Armistice', '3', '415'),
@@ -53,37 +53,28 @@ INSERT INTO Address (addressId, country, province, zipCode, city, street, street
 	(default, 'China', 'Xiapu', null, 'Luohuang', 'Kensington', '6077', '9'),
 	(default, 'Somalia', 'Laascaanood', null, 'Uarini', 'Orin', '825', '9038'),
 	(default, 'Peru', 'Viraco', null, 'Hostavice', 'Maple', '570', '262'),
-	(default, 'Poland', 'Jemielno', '56-209', 'Kunčice pod Ondřejníkem', 'North', '04535', '6322'),
+	(default, 'Poland', 'Jemielno', '56-209', 'Kuncice pod Ondrejníkem', 'North', '04535', '6322'),
 	(default, 'Philippines', 'Malasila', '5507', 'Saint Joseph', 'Emmet', '64835', '1'),
 	(default, 'China', 'Qiaodi', null, 'Beutong Ateuh', 'Armistice', '6202', '472'),
 	(default, 'Nigeria', 'Owode', null, 'Talacogon', 'Magdeline', '299', '94'),
 	(default, 'United States', 'Richmond', '94807', 'Ngamba', 'Lighthouse Bay', '07', '78779'),
-	(default, 'South Africa', 'Plettenberg Bay', '6606', 'Laḩij', 'Toban', '58', '4'),
+	(default, 'South Africa', 'Plettenberg Bay', '6606', 'Lahij', 'Toban', '58', '4'),
 	(default, 'Mauritius', 'Notre Dame', null, 'Aoufous', 'Bonner', '41', '39'),
 	(default, 'Indonesia', 'Wonopringgo', null, 'Xinglongquan', 'Rusk', '79', '30489'),
 	(default, 'China', 'Qiligang', null, 'Bokaa', 'Arizona', '074', '61'),
-	(default, 'Afghanistan', 'Baghlān', null, 'Arivonimamo', 'Stang', '1738', '41439'),
+	(default, 'Afghanistan', 'Baghlan', null, 'Arivonimamo', 'Stang', '1738', '41439'),
 	(default, 'Philippines', 'Calinog', '5040', 'Vila Nova Sintra', 'Steensland', '787', '4207'),
 	(default, 'Philippines', 'Burgos', '8424', 'Dallas', 'Almo', '5', '88731'),
-	(default, 'Vietnam', 'Bù Đốp', null, 'Suay', 'Riverside', '5', '37'),
+	(default, 'Vietnam', 'Bu Dop', null, 'Suay', 'Riverside', '5', '37'),
 	(default, 'Brazil', 'Cruz Alta', '98000', 'Nenotes', 'Ilene', '42', '6'),
 	(default, 'Russia', 'Synya', '169645', 'Takamatsu-shi', 'Village', '69816', '3'),
 	(default, 'Russia', 'Kukushtan', '614543', 'Trzciana', 'Rowland', '6033', '232'),
 	(default, 'China', 'Zhenping Chengguanzhen', null, 'Aubervilliers', 'Manley', '787', '881'),
 	(default, 'Indonesia', 'Gunung Timur', null, 'Hirosaki', 'Jay', '19', '6838'),
-	(default,'Austria', 'Vorarlberg', '6900', 'Bregenz', 'Montfortstraße', '7', '2'),
-	(default,'Germany', 'Bayern', '81547', 'München', 'Säbenerstraße', '51', null),
-	(default,'Switzerland', 'St. Gallen', '9000', 'St. Gallen', 'Schillerstrasse', '3', null),
-	(default,'Liechtenstein', 'Tirol', '6020', 'Innsbruck', 'Dreiheiligenstraße ', '9', '3'),
-	(default,'Italy', 'Rom', '00151', 'Trastevere', 'Basilica Di Santa Maria', '25', null),
-	(default,'France', 'Grand Est', '9341', 'Straßburg', 'Rue de Saine', '13', null),
-	(default,'Spain', 'Madrid', '28005', 'Embajadores', 'Calle de Tolledo', '42', null),
-	(default,'Germany', 'Berlin','50800', 'Friedrichshain', 'Penzlauer Berg', '8', null),
-	(default,'Austria', 'Vorarlberg', '6800', 'Feldkirch', 'Bahnhofstraße', '27', '8'),
-	(default,'Germany', 'Köln', '50667', 'Marsplatz', 'Mariastraße', '55', null),
-	(default,'Switzerland', 'Bayern', '53921', 'München', 'Josefstraße', '13', null),
-	(default,'Italy', 'Rom', '00153', 'Straccio', 'Monte Bianco', '4', null),
-	(default,'Germany', 'Bayern', '91448', 'Emskirchen', 'Altschauerberg', '8', null);
+	(default,'Austria', 'Vorarlberg', '6833', 'Klaus', 'Oberes Ried', '1', null),
+	(default,'Austria', 'Vorarlberg', '6973', 'Höchst', 'Industriestraße', '1', null),
+	(default,'Austria', 'Vorarlberg', '6922', 'Wolfurt', 'Konrad-Doppelmayr-Straße', '1', null),
+	(default,'Austria', 'Vorarlberg', '6900', 'Bregenz', 'Weidachstraße ', '6', null);
 
 
 INSERT INTO CancelationPolicy (cancelationPolicyId, title) VALUES
@@ -243,10 +234,10 @@ INSERT INTO Contact (contactId, phone, email, fax, creditCardNumber, addressId) 
 	(default, '+434169838976', 'rhurche1v@mozilla.com', null, '5007668765979261', 68),
 	(default, '+436528070467', 'rhugnin1w@linkedin.com', null, '3566296645974902', 69),
 	(default, '+439216269814', 'bsainer1x@howstuffworks.com', null, '5007665148909817', 70),
-	(default,'+436997656837', 'nico01@gmail.de', null, null, 4),
-	(default,'+436683453832', 'GuentherWeb@outlook.de', null, null, 9),
-	(default,'+436604552593', 'Jkob@webmail.com', null, null, 11),
-	(default,'+436680983832', 'PrinzPeter@outlook.com', null, null, 12);
+	(default, '+4359495', 'info@omicronenergy.com', null, null, 71),
+	(default, '+435578705-0', 'info@blum.com', '+435578705-44', null, 72),
+	(default, '+435574604', 'dm@doppelmayr.com', null, null, 73),
+	(default, '+435574601-0', 'unternehmen@vkw.at', null, null, 74);
 
 
 INSERT INTO HotelServiceDescription (hotelServiceDescriptionId, description, title, priceSuggestion, isPackage, merchandiseGroupId) VALUES
@@ -318,9 +309,9 @@ INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, day
 	(default,85, 70, 60, 50, 1, 3),
 	(default,111, 100, 60, 50, 1, 4),
 	(default,95, 80, 60, 50, 2, 1),
+	(default,130, 110, 60, 50, 2, 2),
 	(default,95, 80, 60, 50, 2, 3),
 	(default,130, 110, 60, 50, 2, 4),
-	(default,130, 110, 60, 50, 2, 2),
 	(default,95, 80, 60, 50, 3, 1),
 	(default,130, 110, 60, 50, 3, 2),
 	(default,95, 80, 60, 50, 3, 3),
@@ -330,10 +321,9 @@ INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, day
 	(default,95, 80, 60, 50, 4, 3),
 	(default,130, 110, 60, 50, 4, 4),
 	(default,95, 80, 60, 50, 5, 1),
-	(default,95, 80, 60, 50, 5, 3),
 	(default,130, 110, 60, 50, 5, 2),
-	(default,130, 110, 60, 50, 5, 4),
-	(default,130, 110, 60, 50, 3, 2);
+	(default,95, 80, 60, 50, 5, 3),
+	(default,130, 110, 60, 50, 5, 4);
 
 
 -- Level 2
@@ -444,10 +434,10 @@ INSERT INTO RoomRoomFacility (roomNumber, roomFacilityId) VALUES
 
 -- Level 3
 INSERT INTO Contractor (contractorId, name, uid, iban, bic, contactPersonId, contractorTypeId) VALUES
-	(6,'Omicron GmbH','342345656','AT472060111122223333','DOSPAT1ABLO',1,1),
-	(7,'Blum GmbH','342345657','AT472060111122223334','DOSPAT1ABLL',2,1),
-	(8,'Doppelmayr AG','342345658','AT472060111122223335','DOSPAT1ABLP',3,1),
-	(9,'VKW AG','342345658','AT472060111122223335','DOSPAT1ABLP',4,1);
+	(71,'Omicron GmbH','342345656','AT472060111122223333','DOSPAT1ABLO',1,1),
+	(72,'Blum GmbH','342345657','AT472060111122223334','DOSPAT1ABLL',2,1),
+	(73,'Doppelmayr AG','342345658','AT472060111122223335','DOSPAT1ABLP',3,1),
+	(74,'VKW AG','342345658','AT472060111122223335','DOSPAT1ABLP',4,1);
 
 
 INSERT INTO Occupancy (occupancyNumber, startDate, endDate, travelGroupId, personId, roomNumber, positionId) VALUES
@@ -518,8 +508,8 @@ INSERT INTO ReservationOption (reservationOptionId, optionDate, optionDescriptio
 
 -- Level 4
 INSERT INTO Contract (contractNumber, startDate, endDate, document, contractorId) VALUES
-(default,'2018-01-01','2018-12-31',null,6),
-(default,'2017-01-01','2017-12-31',null,7);
+(default,'2018-01-01','2018-12-31',null,71),
+(default,'2017-01-01','2017-12-31',null,72);
 
 
 -- Level 5
