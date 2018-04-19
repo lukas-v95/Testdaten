@@ -317,7 +317,8 @@ INSERT INTO Room (roomNumber, maxPerson, roomStatusCode, roomCategoryId) VALUES
 	(309, 3, 3, 2),
 	(310, 3, 3, 2);
 
-INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, dayPrice, costPrice, roomCategoryId, seasonId) VALUES
+	
+	INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, dayPrice, costPrice, taxPercentageRate, roomCategoryId, seasonId) VALUES
 	(default,85, 70, 60, 50,20.00, 1, 1),
 	(default,111, 100, 60, 50,20.00, 1, 2),
 	(default,85, 70, 60, 50,20.00, 1, 3),
@@ -339,7 +340,7 @@ INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, day
 	(default,130, 110, 60, 50,10.00, 5, 2),
 	(default,130, 110, 60, 50,10.00, 5, 4),
 	(default,130, 110, 60, 50,10.00, 3, 2);
-
+	
 
 -- Level 2
 INSERT INTO ContactNote (contactNoteId, text, contactId) VALUES
@@ -553,13 +554,13 @@ INSERT INTO Quota (quotaId, numberOfNights, price, roomCategory) VALUES
 
 
 -- Level 7
-INSERT INTO ReservationUnit (reservationUnitId, startDate, endDate, notes, reservationNumber, roomNumber, roomCategoryId, quotaId) VALUES
-	(default,'2018-01-01', '2018-01-16', null, 1, null, 1, null),
-	(default,'2018-01-01', '2018-01-11', null, 1, null, 2, null),
-	(default,'2018-01-03', '2018-01-23', null, 2, null, 4, null),
-	(default,'2018-04-23', '2018-04-29', 'test note', 3, null, 2, 4),
-	(default,'2018-04-23', '2018-04-29', null, 3, null, 2, 4),
-	(default,'2018-04-23', '2018-04-29', 'test note', 3, null, 1, 4);
+INSERT INTO ReservationUnit (reservationUnitId, startDate, endDate, notes, numberPerson, price, reservationNumber, roomNumber, roomCategoryId, quotaId) VALUES
+	(default,'2018-01-01', '2018-01-16', null,1, 90.00, 1, null, 1, null),
+	(default,'2018-01-01', '2018-01-11', null,2, 150.00, 1, null, 2, null),
+	(default,'2018-01-03', '2018-01-23', null,4, 250.00, 2, null, 4, null),
+	(default,'2018-04-23', '2018-04-29', 'test note',2, 150.00, 3, null, 2, 4),
+	(default,'2018-04-23', '2018-04-29', null,2, 140.00, 3, null, 2, 4),
+	(default,'2018-04-23', '2018-04-29', 'test note', 1, 200.00, 3, null, 1, 4);
 
 
 -- Level 8
