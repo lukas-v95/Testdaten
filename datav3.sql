@@ -1,4 +1,4 @@
-﻿
+
 -- Level 0
 INSERT INTO Address (addressId, country, province, zipCode, city, street, streetNumber, apartment) VALUES
 	(default,'Austria', 'Vorarlberg', '6850', 'Dornbirn', 'Marktstraße', '30', null),
@@ -318,29 +318,27 @@ INSERT INTO Room (roomNumber, maxPerson, roomStatusCode, roomCategoryId) VALUES
 	(310, 3, 3, 2);
 
 	
-	INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, dayPrice, costPrice, taxPercentageRate, roomCategoryId, seasonId) VALUES
-	(default,85, 70, 60, 50,20.00, 1, 1),
-	(default,111, 100, 60, 50,20.00, 1, 2),
-	(default,85, 70, 60, 50,20.00, 1, 3),
-	(default,111, 100, 60, 50,20.00, 1, 4),
-	(default,95, 80, 60, 50,5.00, 2, 1),
-	(default,95, 80, 60, 50,15.00, 2, 3),
-	(default,130, 110, 60, 50,10.00, 2, 4),
-	(default,130, 110, 60, 50,10.00, 2, 2),
-	(default,95, 80, 60, 50,20.00, 3, 1),
-	(default,130, 110, 60, 50,20.00, 3, 2),
-	(default,95, 80, 60, 50,15.00, 3, 3),
-	(default,130, 110, 60, 50,20.00, 3, 4),
-	(default,95, 80, 60, 50,20.00, 4, 1),
-	(default,130, 110, 60, 50,20.00, 4, 2),
-	(default,95, 80, 60, 50,20.00, 4, 3),
-	(default,130, 110, 60, 50,20.00, 4, 4),
-	(default,95, 80, 60, 50,15.00, 5, 1),
-	(default,95, 80, 60, 50,15.00, 5, 3),
-	(default,130, 110, 60, 50,10.00, 5, 2),
-	(default,130, 110, 60, 50,10.00, 5, 4),
-	(default,130, 110, 60, 50,10.00, 3, 2);
-	
+INSERT INTO RoomCategoryPrice (roomCategoryPriceId, listPrice, minimumPrice, dayPrice, costPrice, taxPercentageRate, roomCategoryId, seasonId) VALUES
+	(default,85, 70, 60, 50, 10.00, 1, 1),
+	(default,111, 100, 60, 50, 10.00, 1, 2),
+	(default,85, 70, 60, 50, 10.00, 1, 3),
+	(default,111, 100, 60, 50, 10.00, 1, 4),
+	(default,95, 80, 60, 50, 10.00, 2, 1),
+	(default,130, 110, 60, 50, 10.00, 2, 2),
+	(default,95, 80, 60, 50, 10.00, 2, 3),
+	(default,130, 110, 60, 50, 10.00, 2, 4),
+	(default,95, 80, 60, 50, 12.00, 3, 1),
+	(default,130, 110, 60, 50, 12.00, 3, 2),
+	(default,95, 80, 60, 50, 12.00, 3, 3),
+	(default,130, 110, 60, 50, 12.00, 3, 4),
+	(default,95, 80, 60, 50, 12.00, 4, 1),
+	(default,130, 110, 60, 50, 12.00, 4, 2),
+	(default,95, 80, 60, 50, 12.00, 4, 3),
+	(default,130, 110, 60, 50, 12.00, 4, 4),
+	(default,95, 80, 60, 50, 15.00, 5, 1),
+	(default,130, 110, 60, 50, 15.00, 5, 2),
+	(default,95, 80, 60, 50, 15.00, 5, 3),
+	(default,130, 110, 60, 50, 15.00, 5, 4);
 
 -- Level 2
 INSERT INTO ContactNote (contactNoteId, text, contactId) VALUES
