@@ -438,10 +438,10 @@ INSERT INTO Person (personId, degree, fname, lname, dateOfBirth, sex, isVip, inA
 
 INSERT INTO Reservation (reservationNumber, arrivalDate, arrivalTime, departureDate, payerContactId, cancelationPolicy, reservationStatusCode) VALUES
 	(default,'2018-04-04', '14:00:00', '2018-06-25',1, 1, 3),
-	(default,'2018-04-04', '15:30:00', '2018-06-27',2, 1, 3),
-	(default,'2018-04-10', '15:30:00', '2018-06-20',3, 1, 3),
-	(default,'2018-04-13', '15:30:00', '2018-06-21',4, 1, 3),
-	(default,'2018-04-16', '15:30:00', '2018-06-22',5, 2, 3),
+	(default,'2018-04-04', '15:30:00', '2018-06-25',2, 1, 3),
+	(default,'2018-04-13', '15:30:00', '2018-06-22',3, 1, 3),
+	(default,'2018-04-13', '15:30:00', '2018-06-22',4, 1, 3),
+	(default,'2018-04-13', '15:30:00', '2018-06-22',5, 2, 3),
 	(default,'2018-04-18', '15:30:00', '2018-06-21',6, 2, 3),
 	(default,'2018-04-18', '15:30:00', '2018-06-21',7, 1, 3),
 	(default,'2018-04-21', '15:30:00', '2018-06-20',8, 1, 3),
@@ -647,12 +647,41 @@ INSERT INTO Quota (quotaId, numberOfNights, price, roomCategory) VALUES
 
 -- Level 7
 INSERT INTO ReservationUnit (reservationUnitId, startDate, endDate, notes, numberPerson, price, reservationNumber, roomNumber, roomCategoryId, quotaId) VALUES
-	(default,'2018-01-01', '2018-01-16', null,1, 90.00, 1, null, 1, null),
-	(default,'2018-01-01', '2018-01-11', null,2, 150.00, 1, null, 2, null),
-	(default,'2018-01-03', '2018-01-23', null,4, 250.00, 2, null, 4, null),
-	(default,'2018-04-23', '2018-04-29', 'test note',2, 150.00, 3, null, 2, 4),
-	(default,'2018-04-23', '2018-04-29', null,2, 140.00, 3, null, 2, 4),
-	(default,'2018-04-23', '2018-04-29', 'test note', 1, 200.00, 3, null, 1, 4);
+	(default,'2018-04-04','2018-06-25',null, 2, 2600.00,1,null,2,null),
+	(default,'2018-04-04','2018-06-27',null, 3, 3000.00,2,null,3,null),
+	(default,'2018-04-10','2018-06-20',null, 4, 3100.00,3,null,4,null),
+	(default,'2018-04-13','2018-06-21','2 P. in 1 room', 2, 2900.00,4,null,1,null),
+	(default,'2018-04-16','2018-06-22',null, 2, 3000.00,5,null,2,null),
+	(default,'2018-04-18','2018-06-21',null, 2, 2900.00,6,null,2,null),
+	(default,'2018-04-18','2018-06-21',null, 1, 2200.00,7,null,1,null),
+	(default,'2018-04-21','2018-06-20',null, 1, 2100.00,8,null,1,null),
+	(default,'2018-04-28','2018-06-20',null, 3, 2300.00,9,null,3,null),
+	(default,'2018-05-01','2018-06-27',null, 4, 1990.00,10,null,4,null),
+	(default,'2018-05-17','2018-06-20',null, 1, 1400.00,11,null,1,null),
+	(default,'2018-06-01','2018-06-07','3 P. in 2 bed room', 3, 900.00,12,null,2,null),
+	(default,'2018-06-02','2018-06-07',null, 3, 879.00,13,null,3,null),
+	(default,'2018-06-02','2018-06-07',null, 1, 360.00,14,null,1,null),
+	(default,'2018-06-02','2018-06-16',null, 2, 1200.00,15,null,2,null),
+	(default,'2018-06-02','2018-06-10',null, 4, 1700.00,16,null,4,null),
+	(default,'2018-06-03','2018-06-11',null, 1, 910.00,17,null,1,null),
+	(default,'2018-06-03','2018-06-11',null, 5, 1322.00,18,null,5,null),
+	(default,'2018-06-03','2018-06-11',null, 2, 990.00,19,null,2,null),
+	(default,'2018-06-04','2018-06-11',null, 3, 991.00,20,null,3,null),
+	(default,'2018-06-04','2018-06-12',null, 1, 390.00,21,null,1,null),
+	(default,'2018-06-05','2018-06-13','4 P. in 3 bed room', 4, 1200.00,22,null,3,null),
+	(default,'2018-06-05','2018-06-13',null, 1, 901.00,23,null,1,null),
+	(default,'2018-06-07','2018-06-13',null, 2, 1299.00,24,null,2,null),
+	(default,'2018-06-07','2018-06-14',null, 5, 2100.00,25,null,5,null),
+	(default,'2018-06-13','2018-06-16',null, 1, 199.99,26,null,1,null),
+	(default,'2018-06-14','2018-06-22',null, 2, 388.99,27,null,2,null),
+	(default,'2018-06-22','2018-07-01',null, 3, 930.00,28,null,3,null),
+	(default,'2018-06-27','2018-07-03',null, 2, 499.00,29,null,2,null),
+	(default,'2018-06-30','2018-07-08',null, 4, 799.00,30,null,4,null),
+	(default,'2018-07-04','2018-07-14',null, 2, 1199.00,31,null,2,null),
+	(default,'2018-07-06','2018-07-12',null, 5, 1699.00,32,null,5,null),
+	(default,'2018-07-07','2018-07-20',null, 1, 599.00,33,null,1,null),
+	(default,'2018-07-16','2018-07-22',null, 2, 1245.56,34,null,2,null);
+
 
 
 -- Level 8
